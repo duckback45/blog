@@ -11,12 +11,29 @@ module.exports = {
     },
   },
 
+  // theme: 'cool',
+  markdown: {
+    extendMarkdown: md => {
+      md.set({ html: true })
+      md.use(require('markdown-it-katex'))
+      md.use(require('markdown-it-plantuml'))
+      md.use(require('markdown-it-admonition'))
+    },
+  },
+
   evergreen: true,
 
   plugins: [
-    ['@vuepress/google-analytics', {
-      ga: 'UA-132770851-2',
-    }],
+    'vuepress-plugin-mermaidjs',
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
   ],
 
   chainWebpack: (config, isServer) => {
@@ -153,13 +170,13 @@ module.exports = {
       // @see https://vuepress.github.io/en/plugins/zooming
     },
 
-    comments: {
-      owner: 'duck45',
-      repo: 'vuepress-theme-meteorlxy',
-      clientId: 'cbda894952ba70c00666',
-      clientSecret: '1ade785ca693bf3092be5e5338720d5ee43672b7',
-      autoCreateIssue: false,
-    },
+    // comments: {
+    //   owner: 'duck45',
+    //   repo: 'vuepress-theme-meteorlxy',
+    //   clientId: 'cbda894952ba70c00666',
+    //   clientSecret: '1ade785ca693bf3092be5e5338720d5ee43672b7',
+    //   autoCreateIssue: false,
+    // },
 
     pagination: {
       perPage: 5,

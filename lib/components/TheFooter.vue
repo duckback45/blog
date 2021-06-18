@@ -18,7 +18,7 @@
       </a>
     </p>
 
-  <!--  <p
+    <!--  <p
       v-if="poweredBy"
       class="footer-text"
     >

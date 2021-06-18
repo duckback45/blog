@@ -5,7 +5,7 @@
   >
     <TheHeaderNavbar />
 
-<!--    <TransitionFadeSlide>
+    <!--    <TransitionFadeSlide>
       <TheHeaderBanner :key="$route.path">
         <slot>
           <h1 v-if="showTitle">
@@ -19,7 +19,6 @@
 
 <script>
 import GeoPattern from 'geopattern'
-import TransitionFadeSlide from '@theme/components/TransitionFadeSlide.vue'
 import TheHeaderNavbar from '@theme/components/TheHeaderNavbar.vue'
 // import TheHeaderBanner from '@theme/components/TheHeaderBanner.vue'
 
@@ -46,7 +45,7 @@ export default {
   name: 'TheHeader',
 
   components: {
-    //TransitionFadeSlide,
+    // TransitionFadeSlide,
     TheHeaderNavbar,
     // TheHeaderBanner,
   },

@@ -1,1 +1,1 @@
-export { default } from "C:\\workspace_web\\blog\\node_modules\\@vuepress\\plugin-google-analytics\\enhanceAppFile.js"
+export { default } from "C:\\workspace_web\\blog\\node_modules\\vuepress-plugin-mathjax\\src\\enhanceApp.js"

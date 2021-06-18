@@ -7,7 +7,7 @@ const nameMap = {
   },
   reddit: {
     title: 'Reddit',
-  }
+  },
 }
 
 export default {

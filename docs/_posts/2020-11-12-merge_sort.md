@@ -1,5 +1,5 @@
 ---
-top: 2
+top: 3
 category: algorithm
 tags:
   - 알고리즘

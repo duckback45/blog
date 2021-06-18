@@ -5,9 +5,15 @@ export default {
   "algorithm": {
     "path": "/posts/categories/algorithm.html",
     "pageKeys": [
-      "v-87d81770",
-      "v-c4d70f70",
-      "v-63bda530"
+      "v-54dee6c8",
+      "v-51f06588",
+      "v-35aa7e08",
+      "v-99f079c0",
+      "v-77d60ef2",
+      "v-0caadd44",
+      "v-2c0a0ef0",
+      "v-850a1264",
+      "v-c26c11f0"
     ]
   }
 }
