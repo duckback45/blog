@@ -2,6 +2,7 @@ const path = require('path')
 
 module.exports = {
   title: 'duckback45',
+  base: '/blog/',
 
   description: 'Vuepress theme of meteorlxy\'s blog',
 
@@ -67,7 +68,7 @@ module.exports = {
       description: '   ',
       email: 'duckback45@gmail.com',
 
-      avatar: '/assets/img/1599481511381.jpg',
+      avatar: './blog/assets/img/1599481511381.jpg',
 
       sns: {
         github: {

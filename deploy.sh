@@ -10,7 +10,7 @@ npm run build
 cd docs-dist
 
 # if you are deploying to a custom domain
-echo 'duckback45.tk' > CNAME
+echo 'duckback45.github.io/blog/' > CNAME
 
 git init
 git add -A
