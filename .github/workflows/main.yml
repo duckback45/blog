@@ -10,7 +10,7 @@ jobs:
     - name: Deploy Build Files
       uses: jenkey2011/vuepress-deploy@1.0.1
       env:
-        ACCESS_TOKEN: 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
+        ACCESS_TOKEN: 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
         BUILD_SCRIPT: yarn && yarn docs:build
         TARGET_BRANCH: gh-pages
         BUILD_DIR: docs/.vuepress/dist
