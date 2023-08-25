@@ -9,40 +9,16 @@ import GlobalLayout from "C:\\workspace\\duckback45-source_blog\\lib\\layouts\\G
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-de7c2336",
-    path: "/posts/2021/01/19/acmicpc-1074.html",
+    name: "v-1a4957da",
+    path: "/posts/2020/11/12/merge-sort.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-de7c2336").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-1a4957da").then(next)
     },
   },
   {
-    path: "/_posts/2021-01-19-acmicpc_1074.html",
-    redirect: "/posts/2021/01/19/acmicpc-1074.html"
-  },
-  {
-    name: "v-23dbf20a",
-    path: "/posts/2020/09/01/bubble-sort.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-23dbf20a").then(next)
-    },
-  },
-  {
-    path: "/_posts/2020-09-01-bubble_sort.html",
-    redirect: "/posts/2020/09/01/bubble-sort.html"
-  },
-  {
-    name: "v-757e0efb",
-    path: "/posts/2020/11/12/quick-sort.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-757e0efb").then(next)
-    },
-  },
-  {
-    path: "/_posts/2020-11-11-quick_sort.html",
-    redirect: "/posts/2020/11/12/quick-sort.html"
+    path: "/_posts/2020-11-12-merge_sort.html",
+    redirect: "/posts/2020/11/12/merge-sort.html"
   },
   {
     name: "v-129670d1",
@@ -69,6 +45,30 @@ export const routes = [
     redirect: "/posts/2020/09/12/cpp.html"
   },
   {
+    name: "v-757e0efb",
+    path: "/posts/2020/11/12/quick-sort.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-757e0efb").then(next)
+    },
+  },
+  {
+    path: "/_posts/2020-11-11-quick_sort.html",
+    redirect: "/posts/2020/11/12/quick-sort.html"
+  },
+  {
+    name: "v-23dbf20a",
+    path: "/posts/2020/09/01/bubble-sort.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-23dbf20a").then(next)
+    },
+  },
+  {
+    path: "/_posts/2020-09-01-bubble_sort.html",
+    redirect: "/posts/2020/09/01/bubble-sort.html"
+  },
+  {
     name: "v-776cc73b",
     path: "/posts/2021/01/28/acmicpc-12865.html",
     component: GlobalLayout,
@@ -93,28 +93,28 @@ export const routes = [
     redirect: "/posts/2021/01/28/acmicpc-1904.html"
   },
   {
-    name: "v-1a4957da",
-    path: "/posts/2020/11/12/merge-sort.html",
+    name: "v-de7c2336",
+    path: "/posts/2021/01/19/acmicpc-1074.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-1a4957da").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-de7c2336").then(next)
     },
   },
   {
-    path: "/_posts/2020-11-12-merge_sort.html",
-    redirect: "/posts/2020/11/12/merge-sort.html"
+    path: "/_posts/2021-01-19-acmicpc_1074.html",
+    redirect: "/posts/2021/01/19/acmicpc-1074.html"
   },
   {
-    name: "v-2f313a8a",
-    path: "/posts/2021/02/18/programmers-prime.html",
+    name: "v-348774ce",
+    path: "/posts/2023/08/26/greedy.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-2f313a8a").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-348774ce").then(next)
     },
   },
   {
-    path: "/_posts/2021-02-18-programmers-prime.html",
-    redirect: "/posts/2021/02/18/programmers-prime.html"
+    path: "/_posts/2023-08-26-greedy.html",
+    redirect: "/posts/2023/08/26/greedy.html"
   },
   {
     name: "v-0d59f3aa",
@@ -127,6 +127,18 @@ export const routes = [
   {
     path: "/custom-pages/index.html",
     redirect: "/custom-pages/"
+  },
+  {
+    name: "v-2f313a8a",
+    path: "/posts/2021/02/18/programmers-prime.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-2f313a8a").then(next)
+    },
+  },
+  {
+    path: "/_posts/2021-02-18-programmers-prime.html",
+    redirect: "/posts/2021/02/18/programmers-prime.html"
   },
   {
     name: "v-b2754d56",
@@ -177,15 +189,6 @@ export const routes = [
     redirect: "/posts/categories/"
   },
   {
-    name: "v-609bbe46",
-    path: "/posts/tags/acmicpc.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-609bbe46").then(next)
-    },
-    meta: {"tagName":"acmicpc"}
-  },
-  {
     name: "v-15a28c69",
     path: "/posts/tags/알고리즘.html",
     component: GlobalLayout,
@@ -193,15 +196,6 @@ export const routes = [
       ensureAsyncComponentsLoaded("Tag", "v-15a28c69").then(next)
     },
     meta: {"tagName":"알고리즘"}
-  },
-  {
-    name: "v-6c7231c9",
-    path: "/posts/tags/재귀.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-6c7231c9").then(next)
-    },
-    meta: {"tagName":"재귀"}
   },
   {
     name: "v-75676de2",
@@ -220,6 +214,15 @@ export const routes = [
       ensureAsyncComponentsLoaded("Tag", "v-02a62250").then(next)
     },
     meta: {"tagName":"python"}
+  },
+  {
+    name: "v-609bbe46",
+    path: "/posts/tags/acmicpc.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-609bbe46").then(next)
+    },
+    meta: {"tagName":"acmicpc"}
   },
   {
     name: "v-7b23f1cc",
@@ -249,6 +252,24 @@ export const routes = [
     meta: {"tagName":"동적프로그래밍"}
   },
   {
+    name: "v-6c7231c9",
+    path: "/posts/tags/재귀.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-6c7231c9").then(next)
+    },
+    meta: {"tagName":"재귀"}
+  },
+  {
+    name: "v-0c496cd8",
+    path: "/posts/tags/greedy.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-0c496cd8").then(next)
+    },
+    meta: {"tagName":"greedy"}
+  },
+  {
     name: "v-10797bde",
     path: "/posts/tags/프로그래머스.html",
     component: GlobalLayout,
@@ -274,6 +295,15 @@ export const routes = [
       ensureAsyncComponentsLoaded("Category", "v-5e3a42ec").then(next)
     },
     meta: {"categoryName":"algorithm"}
+  },
+  {
+    name: "v-5459ae57",
+    path: "/posts/categories/greedy.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-5459ae57").then(next)
+    },
+    meta: {"categoryName":"greedy"}
   },
   {
     path: '*',

@@ -5,15 +5,21 @@ export default {
   "algorithm": {
     "path": "/posts/categories/algorithm.html",
     "pageKeys": [
-      "v-de7c2336",
-      "v-23dbf20a",
-      "v-757e0efb",
+      "v-1a4957da",
       "v-129670d1",
       "v-2c4f688a",
+      "v-757e0efb",
+      "v-23dbf20a",
       "v-776cc73b",
       "v-5332537e",
-      "v-1a4957da",
+      "v-de7c2336",
       "v-2f313a8a"
+    ]
+  },
+  "greedy": {
+    "path": "/posts/categories/greedy.html",
+    "pageKeys": [
+      "v-348774ce"
     ]
   }
 }
