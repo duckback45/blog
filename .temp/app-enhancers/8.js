@@ -1,1 +1,1 @@
-export { default } from "C:\\workspace_web\\blog\\node_modules\\vuepress-plugin-mathjax\\src\\enhanceApp.js"
+export { default } from "C:\\workspace\\duckback45-source_blog\\node_modules\\vuepress-plugin-mathjax\\src\\enhanceApp.js"

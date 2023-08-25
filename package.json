@@ -95,6 +95,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^6.1.2",
+    "gh-pages": "^6.0.0",
     "husky": "^3.0.5",
     "lint-staged": "^9.2.5",
     "semantic-release": "^17.3.3",

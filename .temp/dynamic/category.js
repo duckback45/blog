@@ -5,15 +5,15 @@ export default {
   "algorithm": {
     "path": "/posts/categories/algorithm.html",
     "pageKeys": [
-      "v-54dee6c8",
-      "v-51f06588",
-      "v-35aa7e08",
-      "v-99f079c0",
-      "v-77d60ef2",
-      "v-0caadd44",
-      "v-2c0a0ef0",
-      "v-850a1264",
-      "v-c26c11f0"
+      "v-de7c2336",
+      "v-23dbf20a",
+      "v-757e0efb",
+      "v-129670d1",
+      "v-2c4f688a",
+      "v-776cc73b",
+      "v-5332537e",
+      "v-1a4957da",
+      "v-2f313a8a"
     ]
   }
 }

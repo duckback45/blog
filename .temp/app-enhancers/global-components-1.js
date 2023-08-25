@@ -1,5 +1,5 @@
 import Vue from 'vue'
-Vue.component("CustomPages", () => import("C:\\workspace_web\\blog\\docs\\.vuepress\\components\\CustomPages"))
+Vue.component("CustomPages", () => import("C:\\workspace\\duckback45-source_blog\\docs\\.vuepress\\components\\CustomPages"))
 
 
 
