@@ -3,172 +3,10 @@
  */
 export const siteData = {
   "title": "duckback45",
-  "description": "Vuepress theme of meteorlxy's blog",
+  "description": "",
   "base": "/blog/",
   "headTags": [],
   "pages": [
-    {
-      "title": "병합정렬",
-      "frontmatter": {
-        "top": 3,
-        "category": "algorithm",
-        "tags": [
-          "알고리즘",
-          "정렬",
-          "python"
-        ],
-        "date": "2020-11-12T00:00:00.000Z",
-        "title": "병합정렬",
-        "vssue": false,
-        "layout": "Post",
-        "permalink": "/posts/:year/:month/:day/:slug.html",
-        "draft": false
-      },
-      "regularPath": "/_posts/2020-11-12-merge_sort.html",
-      "relativePath": "_posts/2020-11-12-merge_sort.md",
-      "key": "v-1a4957da",
-      "path": "/posts/2020/11/12/merge-sort.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "python",
-          "slug": "python"
-        }
-      ],
-      "lastUpdated": "6/18/2021, 4:44:07 PM",
-      "lastUpdatedTimestamp": 1624002247000,
-      "type": "post",
-      "top": 3,
-      "tags": [
-        "알고리즘",
-        "정렬",
-        "python"
-      ],
-      "category": "algorithm",
-      "createdAt": "2020-11-12",
-      "updatedAt": "2021-06-18"
-    },
-    {
-      "title": "공유기 설치(acmicpc 2110)",
-      "frontmatter": {
-        "top": 1,
-        "category": "algorithm",
-        "tags": [
-          "acmicpc",
-          "알고리즘",
-          "이진탐색"
-        ],
-        "date": "2021-01-22T00:00:00.000Z",
-        "title": "공유기 설치(acmicpc 2110)",
-        "vssue": false,
-        "layout": "Post",
-        "permalink": "/posts/:year/:month/:day/:slug.html",
-        "draft": false
-      },
-      "regularPath": "/_posts/2021-01-22-acmicpc_2110.html",
-      "relativePath": "_posts/2021-01-22-acmicpc_2110.md",
-      "key": "v-129670d1",
-      "path": "/posts/2021/01/22/acmicpc-2110.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "소스코드 Python",
-          "slug": "소스코드-python"
-        }
-      ],
-      "lastUpdated": "6/18/2021, 4:44:07 PM",
-      "lastUpdatedTimestamp": 1624002247000,
-      "type": "post",
-      "top": 1,
-      "tags": [
-        "acmicpc",
-        "알고리즘",
-        "이진탐색"
-      ],
-      "category": "algorithm",
-      "createdAt": "2021-01-22",
-      "updatedAt": "2021-06-18"
-    },
-    {
-      "title": "다항식의 덧셈",
-      "frontmatter": {
-        "top": 5,
-        "category": "algorithm",
-        "tags": [
-          "알고리즘",
-          "C++"
-        ],
-        "date": "2020-09-12T00:00:00.000Z",
-        "title": "다항식의 덧셈",
-        "vssue": false,
-        "layout": "Post",
-        "permalink": "/posts/:year/:month/:day/:slug.html",
-        "draft": false
-      },
-      "regularPath": "/_posts/2020-09-12-cpp.html",
-      "relativePath": "_posts/2020-09-12-cpp.md",
-      "key": "v-2c4f688a",
-      "path": "/posts/2020/09/12/cpp.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "C++",
-          "slug": "c"
-        }
-      ],
-      "lastUpdated": "6/18/2021, 4:44:07 PM",
-      "lastUpdatedTimestamp": 1624002247000,
-      "type": "post",
-      "top": 5,
-      "tags": [
-        "알고리즘",
-        "C++"
-      ],
-      "category": "algorithm",
-      "createdAt": "2020-09-12",
-      "updatedAt": "2021-06-18"
-    },
-    {
-      "title": "퀵정렬",
-      "frontmatter": {
-        "top": 2,
-        "category": "algorithm",
-        "tags": [
-          "알고리즘",
-          "정렬",
-          "python"
-        ],
-        "date": "2020-11-12T00:00:00.000Z",
-        "title": "퀵정렬",
-        "vssue": false,
-        "layout": "Post",
-        "permalink": "/posts/:year/:month/:day/:slug.html",
-        "draft": false
-      },
-      "regularPath": "/_posts/2020-11-11-quick_sort.html",
-      "relativePath": "_posts/2020-11-11-quick_sort.md",
-      "key": "v-757e0efb",
-      "path": "/posts/2020/11/12/quick-sort.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "python",
-          "slug": "python"
-        }
-      ],
-      "lastUpdated": "6/18/2021, 4:44:07 PM",
-      "lastUpdatedTimestamp": 1624002247000,
-      "type": "post",
-      "top": 2,
-      "tags": [
-        "알고리즘",
-        "정렬",
-        "python"
-      ],
-      "category": "algorithm",
-      "createdAt": "2020-11-12",
-      "updatedAt": "2021-06-18"
-    },
     {
       "title": "버블정렬",
       "frontmatter": {
@@ -211,45 +49,125 @@ export const siteData = {
       "updatedAt": "2021-06-18"
     },
     {
-      "title": "평범한 배낭(acmicpc 12865)",
+      "title": "다항식의 덧셈",
       "frontmatter": {
-        "top": 1,
+        "top": 5,
         "category": "algorithm",
         "tags": [
-          "acmicpc",
           "알고리즘",
-          "동적프로그래밍"
+          "C++"
         ],
-        "date": "2021-01-28T00:00:00.000Z",
-        "title": "평범한 배낭(acmicpc 12865)",
+        "date": "2020-09-12T00:00:00.000Z",
+        "title": "다항식의 덧셈",
         "vssue": false,
         "layout": "Post",
         "permalink": "/posts/:year/:month/:day/:slug.html",
         "draft": false
       },
-      "regularPath": "/_posts/2021-01-28-acmicpc_12865.html",
-      "relativePath": "_posts/2021-01-28-acmicpc_12865.md",
-      "key": "v-776cc73b",
-      "path": "/posts/2021/01/28/acmicpc-12865.html",
+      "regularPath": "/_posts/2020-09-12-cpp.html",
+      "relativePath": "_posts/2020-09-12-cpp.md",
+      "key": "v-2c4f688a",
+      "path": "/posts/2020/09/12/cpp.html",
       "headers": [
         {
           "level": 2,
-          "title": "소스코드 Python",
-          "slug": "소스코드-python"
+          "title": "C++",
+          "slug": "c"
         }
       ],
-      "lastUpdated": "8/26/2023, 12:28:45 AM",
-      "lastUpdatedTimestamp": 1692977325000,
+      "lastUpdated": "6/18/2021, 4:44:07 PM",
+      "lastUpdatedTimestamp": 1624002247000,
       "type": "post",
-      "top": 1,
+      "top": 5,
       "tags": [
-        "acmicpc",
         "알고리즘",
-        "동적프로그래밍"
+        "C++"
       ],
       "category": "algorithm",
-      "createdAt": "2021-01-28",
-      "updatedAt": "2023-08-26"
+      "createdAt": "2020-09-12",
+      "updatedAt": "2021-06-18"
+    },
+    {
+      "title": "병합정렬",
+      "frontmatter": {
+        "top": 3,
+        "category": "algorithm",
+        "tags": [
+          "알고리즘",
+          "정렬",
+          "python"
+        ],
+        "date": "2020-11-12T00:00:00.000Z",
+        "title": "병합정렬",
+        "vssue": false,
+        "layout": "Post",
+        "permalink": "/posts/:year/:month/:day/:slug.html",
+        "draft": false
+      },
+      "regularPath": "/_posts/2020-11-12-merge_sort.html",
+      "relativePath": "_posts/2020-11-12-merge_sort.md",
+      "key": "v-1a4957da",
+      "path": "/posts/2020/11/12/merge-sort.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "python",
+          "slug": "python"
+        }
+      ],
+      "lastUpdated": "6/18/2021, 4:44:07 PM",
+      "lastUpdatedTimestamp": 1624002247000,
+      "type": "post",
+      "top": 3,
+      "tags": [
+        "알고리즘",
+        "정렬",
+        "python"
+      ],
+      "category": "algorithm",
+      "createdAt": "2020-11-12",
+      "updatedAt": "2021-06-18"
+    },
+    {
+      "title": "퀵정렬",
+      "frontmatter": {
+        "top": 2,
+        "category": "algorithm",
+        "tags": [
+          "알고리즘",
+          "정렬",
+          "python"
+        ],
+        "date": "2020-11-12T00:00:00.000Z",
+        "title": "퀵정렬",
+        "vssue": false,
+        "layout": "Post",
+        "permalink": "/posts/:year/:month/:day/:slug.html",
+        "draft": false
+      },
+      "regularPath": "/_posts/2020-11-11-quick_sort.html",
+      "relativePath": "_posts/2020-11-11-quick_sort.md",
+      "key": "v-757e0efb",
+      "path": "/posts/2020/11/12/quick-sort.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "python",
+          "slug": "python"
+        }
+      ],
+      "lastUpdated": "6/18/2021, 4:44:07 PM",
+      "lastUpdatedTimestamp": 1624002247000,
+      "type": "post",
+      "top": 2,
+      "tags": [
+        "알고리즘",
+        "정렬",
+        "python"
+      ],
+      "category": "algorithm",
+      "createdAt": "2020-11-12",
+      "updatedAt": "2021-06-18"
     },
     {
       "title": "01타일(acmicpc 1904)",
@@ -334,52 +252,44 @@ export const siteData = {
       "updatedAt": "2021-06-18"
     },
     {
-      "title": "행렬(1080)",
+      "title": "평범한 배낭(acmicpc 12865)",
       "frontmatter": {
         "top": 1,
-        "category": "greedy",
+        "category": "algorithm",
         "tags": [
-          "greedy",
-          "정렬"
+          "acmicpc",
+          "알고리즘",
+          "동적프로그래밍"
         ],
-        "date": "2023-08-26T00:00:00.000Z",
-        "title": "행렬(1080)",
+        "date": "2021-01-28T00:00:00.000Z",
+        "title": "평범한 배낭(acmicpc 12865)",
         "vssue": false,
         "layout": "Post",
         "permalink": "/posts/:year/:month/:day/:slug.html",
         "draft": false
       },
-      "regularPath": "/_posts/2023-08-26-greedy.html",
-      "relativePath": "_posts/2023-08-26-greedy.md",
-      "key": "v-348774ce",
-      "path": "/posts/2023/08/26/greedy.html",
+      "regularPath": "/_posts/2021-01-28-acmicpc_12865.html",
+      "relativePath": "_posts/2021-01-28-acmicpc_12865.md",
+      "key": "v-776cc73b",
+      "path": "/posts/2021/01/28/acmicpc-12865.html",
       "headers": [
         {
           "level": 2,
-          "title": "행렬 1080",
-          "slug": "행렬-1080"
-        },
-        {
-          "level": 3,
-          "title": "분석",
-          "slug": "분석"
-        },
-        {
-          "level": 3,
           "title": "소스코드 Python",
           "slug": "소스코드-python"
         }
       ],
-      "lastUpdated": "8/26/2023, 2:29:09 AM",
-      "lastUpdatedTimestamp": 1692984549000,
+      "lastUpdated": "8/26/2023, 12:28:45 AM",
+      "lastUpdatedTimestamp": 1692977325000,
       "type": "post",
       "top": 1,
       "tags": [
-        "greedy",
-        "정렬"
+        "acmicpc",
+        "알고리즘",
+        "동적프로그래밍"
       ],
-      "category": "greedy",
-      "createdAt": "2023-08-26",
+      "category": "algorithm",
+      "createdAt": "2021-01-28",
       "updatedAt": "2023-08-26"
     },
     {
@@ -451,6 +361,141 @@ export const siteData = {
       "updatedAt": "2021-06-18"
     },
     {
+      "title": "행렬(1080)",
+      "frontmatter": {
+        "top": 1,
+        "category": "greedy",
+        "tags": [
+          "greedy"
+        ],
+        "date": "2023-08-26T00:00:00.000Z",
+        "title": "행렬(1080)",
+        "vssue": false,
+        "layout": "Post",
+        "permalink": "/posts/:year/:month/:day/:slug.html",
+        "draft": false
+      },
+      "regularPath": "/_posts/2023-08-26-greedy.html",
+      "relativePath": "_posts/2023-08-26-greedy.md",
+      "key": "v-348774ce",
+      "path": "/posts/2023/08/26/greedy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "행렬 1080",
+          "slug": "행렬-1080"
+        },
+        {
+          "level": 3,
+          "title": "분석",
+          "slug": "분석"
+        },
+        {
+          "level": 3,
+          "title": "소스코드 Python",
+          "slug": "소스코드-python"
+        }
+      ],
+      "lastUpdated": "8/26/2023, 2:35:21 AM",
+      "lastUpdatedTimestamp": 1692984921000,
+      "type": "post",
+      "top": 1,
+      "tags": [
+        "greedy"
+      ],
+      "category": "greedy",
+      "createdAt": "2023-08-26",
+      "updatedAt": "2023-08-26"
+    },
+    {
+      "title": "공유기 설치(acmicpc 2110)",
+      "frontmatter": {
+        "top": 1,
+        "category": "algorithm",
+        "tags": [
+          "acmicpc",
+          "알고리즘",
+          "이진탐색"
+        ],
+        "date": "2021-01-22T00:00:00.000Z",
+        "title": "공유기 설치(acmicpc 2110)",
+        "vssue": false,
+        "layout": "Post",
+        "permalink": "/posts/:year/:month/:day/:slug.html",
+        "draft": false
+      },
+      "regularPath": "/_posts/2021-01-22-acmicpc_2110.html",
+      "relativePath": "_posts/2021-01-22-acmicpc_2110.md",
+      "key": "v-129670d1",
+      "path": "/posts/2021/01/22/acmicpc-2110.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "소스코드 Python",
+          "slug": "소스코드-python"
+        }
+      ],
+      "lastUpdated": "6/18/2021, 4:44:07 PM",
+      "lastUpdatedTimestamp": 1624002247000,
+      "type": "post",
+      "top": 1,
+      "tags": [
+        "acmicpc",
+        "알고리즘",
+        "이진탐색"
+      ],
+      "category": "algorithm",
+      "createdAt": "2021-01-22",
+      "updatedAt": "2021-06-18"
+    },
+    {
+      "title": "주사위(1041)",
+      "frontmatter": {
+        "top": 1,
+        "category": "greedy",
+        "tags": [
+          "greedy",
+          "수학"
+        ],
+        "date": "2023-08-28T00:00:00.000Z",
+        "title": "주사위(1041)",
+        "vssue": false,
+        "layout": "Post",
+        "permalink": "/posts/:year/:month/:day/:slug.html",
+        "draft": false
+      },
+      "regularPath": "/_posts/2023-08-28-dice.html",
+      "relativePath": "_posts/2023-08-28-dice.md",
+      "key": "v-8e723862",
+      "path": "/posts/2023/08/28/dice.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "주사위 1041",
+          "slug": "주사위-1041"
+        },
+        {
+          "level": 3,
+          "title": "분석",
+          "slug": "분석"
+        },
+        {
+          "level": 3,
+          "title": "소스코드 Python",
+          "slug": "소스코드-python"
+        }
+      ],
+      "type": "post",
+      "top": 1,
+      "tags": [
+        "greedy",
+        "수학"
+      ],
+      "category": "greedy",
+      "createdAt": "2023-08-28",
+      "updatedAt": null
+    },
+    {
       "frontmatter": {
         "title": "Home",
         "layout": "Home"
@@ -517,30 +562,21 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "title": "acmicpc | Tag",
-        "layout": "Tag"
-      },
-      "regularPath": "/posts/tags/acmicpc.html",
-      "key": "v-609bbe46",
-      "path": "/posts/tags/acmicpc.html"
-    },
-    {
-      "frontmatter": {
-        "title": "이진탐색 | Tag",
-        "layout": "Tag"
-      },
-      "regularPath": "/posts/tags/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89.html",
-      "key": "v-7b23f1cc",
-      "path": "/posts/tags/이진탐색.html"
-    },
-    {
-      "frontmatter": {
         "title": "C++ | Tag",
         "layout": "Tag"
       },
       "regularPath": "/posts/tags/C++.html",
       "key": "v-74cf165b",
       "path": "/posts/tags/C++.html"
+    },
+    {
+      "frontmatter": {
+        "title": "acmicpc | Tag",
+        "layout": "Tag"
+      },
+      "regularPath": "/posts/tags/acmicpc.html",
+      "key": "v-609bbe46",
+      "path": "/posts/tags/acmicpc.html"
     },
     {
       "frontmatter": {
@@ -562,15 +598,6 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "title": "greedy | Tag",
-        "layout": "Tag"
-      },
-      "regularPath": "/posts/tags/greedy.html",
-      "key": "v-0c496cd8",
-      "path": "/posts/tags/greedy.html"
-    },
-    {
-      "frontmatter": {
         "title": "프로그래머스 | Tag",
         "layout": "Tag"
       },
@@ -586,6 +613,33 @@ export const siteData = {
       "regularPath": "/posts/tags/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89.html",
       "key": "v-f011318c",
       "path": "/posts/tags/완전탐색.html"
+    },
+    {
+      "frontmatter": {
+        "title": "greedy | Tag",
+        "layout": "Tag"
+      },
+      "regularPath": "/posts/tags/greedy.html",
+      "key": "v-0c496cd8",
+      "path": "/posts/tags/greedy.html"
+    },
+    {
+      "frontmatter": {
+        "title": "이진탐색 | Tag",
+        "layout": "Tag"
+      },
+      "regularPath": "/posts/tags/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89.html",
+      "key": "v-7b23f1cc",
+      "path": "/posts/tags/이진탐색.html"
+    },
+    {
+      "frontmatter": {
+        "title": "수학 | Tag",
+        "layout": "Tag"
+      },
+      "regularPath": "/posts/tags/%EC%88%98%ED%95%99.html",
+      "key": "v-569bc58e",
+      "path": "/posts/tags/수학.html"
     },
     {
       "frontmatter": {
@@ -631,7 +685,7 @@ export const siteData = {
       "nickname": "Baek Sanghun",
       "description": "   ",
       "email": "duckback45@gmail.com",
-      "avatar": "./blog/assets/img/1599481511381.jpg",
+      "avatar": "./assets/img/1599481511381.jpg",
       "sns": {
         "github": {
           "account": "duckback45",

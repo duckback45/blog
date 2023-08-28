@@ -5,47 +5,31 @@ export default {
   "알고리즘": {
     "path": "/posts/tags/알고리즘.html",
     "pageKeys": [
-      "v-1a4957da",
-      "v-129670d1",
-      "v-2c4f688a",
-      "v-757e0efb",
       "v-23dbf20a",
-      "v-776cc73b",
+      "v-2c4f688a",
+      "v-1a4957da",
+      "v-757e0efb",
       "v-5332537e",
-      "v-de7c2336"
+      "v-de7c2336",
+      "v-776cc73b",
+      "v-129670d1"
     ]
   },
   "정렬": {
     "path": "/posts/tags/정렬.html",
     "pageKeys": [
-      "v-1a4957da",
-      "v-757e0efb",
       "v-23dbf20a",
-      "v-348774ce"
+      "v-1a4957da",
+      "v-757e0efb"
     ]
   },
   "python": {
     "path": "/posts/tags/python.html",
     "pageKeys": [
+      "v-23dbf20a",
       "v-1a4957da",
       "v-757e0efb",
-      "v-23dbf20a",
       "v-2f313a8a"
-    ]
-  },
-  "acmicpc": {
-    "path": "/posts/tags/acmicpc.html",
-    "pageKeys": [
-      "v-129670d1",
-      "v-776cc73b",
-      "v-5332537e",
-      "v-de7c2336"
-    ]
-  },
-  "이진탐색": {
-    "path": "/posts/tags/이진탐색.html",
-    "pageKeys": [
-      "v-129670d1"
     ]
   },
   "C++": {
@@ -54,23 +38,26 @@ export default {
       "v-2c4f688a"
     ]
   },
+  "acmicpc": {
+    "path": "/posts/tags/acmicpc.html",
+    "pageKeys": [
+      "v-5332537e",
+      "v-de7c2336",
+      "v-776cc73b",
+      "v-129670d1"
+    ]
+  },
   "동적프로그래밍": {
     "path": "/posts/tags/동적프로그래밍.html",
     "pageKeys": [
-      "v-776cc73b",
-      "v-5332537e"
+      "v-5332537e",
+      "v-776cc73b"
     ]
   },
   "재귀": {
     "path": "/posts/tags/재귀.html",
     "pageKeys": [
       "v-de7c2336"
-    ]
-  },
-  "greedy": {
-    "path": "/posts/tags/greedy.html",
-    "pageKeys": [
-      "v-348774ce"
     ]
   },
   "프로그래머스": {
@@ -83,6 +70,25 @@ export default {
     "path": "/posts/tags/완전탐색.html",
     "pageKeys": [
       "v-2f313a8a"
+    ]
+  },
+  "greedy": {
+    "path": "/posts/tags/greedy.html",
+    "pageKeys": [
+      "v-348774ce",
+      "v-8e723862"
+    ]
+  },
+  "이진탐색": {
+    "path": "/posts/tags/이진탐색.html",
+    "pageKeys": [
+      "v-129670d1"
+    ]
+  },
+  "수학": {
+    "path": "/posts/tags/수학.html",
+    "pageKeys": [
+      "v-8e723862"
     ]
   }
 }

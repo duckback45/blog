@@ -9,28 +9,16 @@ import GlobalLayout from "C:\\workspace\\duckback45-source_blog\\lib\\layouts\\G
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-1a4957da",
-    path: "/posts/2020/11/12/merge-sort.html",
+    name: "v-23dbf20a",
+    path: "/posts/2020/09/01/bubble-sort.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-1a4957da").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-23dbf20a").then(next)
     },
   },
   {
-    path: "/_posts/2020-11-12-merge_sort.html",
-    redirect: "/posts/2020/11/12/merge-sort.html"
-  },
-  {
-    name: "v-129670d1",
-    path: "/posts/2021/01/22/acmicpc-2110.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-129670d1").then(next)
-    },
-  },
-  {
-    path: "/_posts/2021-01-22-acmicpc_2110.html",
-    redirect: "/posts/2021/01/22/acmicpc-2110.html"
+    path: "/_posts/2020-09-01-bubble_sort.html",
+    redirect: "/posts/2020/09/01/bubble-sort.html"
   },
   {
     name: "v-2c4f688a",
@@ -45,6 +33,18 @@ export const routes = [
     redirect: "/posts/2020/09/12/cpp.html"
   },
   {
+    name: "v-1a4957da",
+    path: "/posts/2020/11/12/merge-sort.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-1a4957da").then(next)
+    },
+  },
+  {
+    path: "/_posts/2020-11-12-merge_sort.html",
+    redirect: "/posts/2020/11/12/merge-sort.html"
+  },
+  {
     name: "v-757e0efb",
     path: "/posts/2020/11/12/quick-sort.html",
     component: GlobalLayout,
@@ -55,30 +55,6 @@ export const routes = [
   {
     path: "/_posts/2020-11-11-quick_sort.html",
     redirect: "/posts/2020/11/12/quick-sort.html"
-  },
-  {
-    name: "v-23dbf20a",
-    path: "/posts/2020/09/01/bubble-sort.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-23dbf20a").then(next)
-    },
-  },
-  {
-    path: "/_posts/2020-09-01-bubble_sort.html",
-    redirect: "/posts/2020/09/01/bubble-sort.html"
-  },
-  {
-    name: "v-776cc73b",
-    path: "/posts/2021/01/28/acmicpc-12865.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-776cc73b").then(next)
-    },
-  },
-  {
-    path: "/_posts/2021-01-28-acmicpc_12865.html",
-    redirect: "/posts/2021/01/28/acmicpc-12865.html"
   },
   {
     name: "v-5332537e",
@@ -105,16 +81,16 @@ export const routes = [
     redirect: "/posts/2021/01/19/acmicpc-1074.html"
   },
   {
-    name: "v-348774ce",
-    path: "/posts/2023/08/26/greedy.html",
+    name: "v-776cc73b",
+    path: "/posts/2021/01/28/acmicpc-12865.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-348774ce").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-776cc73b").then(next)
     },
   },
   {
-    path: "/_posts/2023-08-26-greedy.html",
-    redirect: "/posts/2023/08/26/greedy.html"
+    path: "/_posts/2021-01-28-acmicpc_12865.html",
+    redirect: "/posts/2021/01/28/acmicpc-12865.html"
   },
   {
     name: "v-0d59f3aa",
@@ -139,6 +115,42 @@ export const routes = [
   {
     path: "/_posts/2021-02-18-programmers-prime.html",
     redirect: "/posts/2021/02/18/programmers-prime.html"
+  },
+  {
+    name: "v-348774ce",
+    path: "/posts/2023/08/26/greedy.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-348774ce").then(next)
+    },
+  },
+  {
+    path: "/_posts/2023-08-26-greedy.html",
+    redirect: "/posts/2023/08/26/greedy.html"
+  },
+  {
+    name: "v-129670d1",
+    path: "/posts/2021/01/22/acmicpc-2110.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-129670d1").then(next)
+    },
+  },
+  {
+    path: "/_posts/2021-01-22-acmicpc_2110.html",
+    redirect: "/posts/2021/01/22/acmicpc-2110.html"
+  },
+  {
+    name: "v-8e723862",
+    path: "/posts/2023/08/28/dice.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-8e723862").then(next)
+    },
+  },
+  {
+    path: "/_posts/2023-08-28-dice.html",
+    redirect: "/posts/2023/08/28/dice.html"
   },
   {
     name: "v-b2754d56",
@@ -216,24 +228,6 @@ export const routes = [
     meta: {"tagName":"python"}
   },
   {
-    name: "v-609bbe46",
-    path: "/posts/tags/acmicpc.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-609bbe46").then(next)
-    },
-    meta: {"tagName":"acmicpc"}
-  },
-  {
-    name: "v-7b23f1cc",
-    path: "/posts/tags/이진탐색.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-7b23f1cc").then(next)
-    },
-    meta: {"tagName":"이진탐색"}
-  },
-  {
     name: "v-74cf165b",
     path: "/posts/tags/C++.html",
     component: GlobalLayout,
@@ -241,6 +235,15 @@ export const routes = [
       ensureAsyncComponentsLoaded("Tag", "v-74cf165b").then(next)
     },
     meta: {"tagName":"C++"}
+  },
+  {
+    name: "v-609bbe46",
+    path: "/posts/tags/acmicpc.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-609bbe46").then(next)
+    },
+    meta: {"tagName":"acmicpc"}
   },
   {
     name: "v-3fe657a1",
@@ -261,15 +264,6 @@ export const routes = [
     meta: {"tagName":"재귀"}
   },
   {
-    name: "v-0c496cd8",
-    path: "/posts/tags/greedy.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-0c496cd8").then(next)
-    },
-    meta: {"tagName":"greedy"}
-  },
-  {
     name: "v-10797bde",
     path: "/posts/tags/프로그래머스.html",
     component: GlobalLayout,
@@ -286,6 +280,33 @@ export const routes = [
       ensureAsyncComponentsLoaded("Tag", "v-f011318c").then(next)
     },
     meta: {"tagName":"완전탐색"}
+  },
+  {
+    name: "v-0c496cd8",
+    path: "/posts/tags/greedy.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-0c496cd8").then(next)
+    },
+    meta: {"tagName":"greedy"}
+  },
+  {
+    name: "v-7b23f1cc",
+    path: "/posts/tags/이진탐색.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-7b23f1cc").then(next)
+    },
+    meta: {"tagName":"이진탐색"}
+  },
+  {
+    name: "v-569bc58e",
+    path: "/posts/tags/수학.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-569bc58e").then(next)
+    },
+    meta: {"tagName":"수학"}
   },
   {
     name: "v-5e3a42ec",

@@ -4,7 +4,7 @@ module.exports = {
   title: 'duckback45',
   base: '/blog/',
 
-  description: 'Vuepress theme of meteorlxy\'s blog',
+  description: '',
 
   locales: {
     '/': {
@@ -68,69 +68,17 @@ module.exports = {
       description: '   ',
       email: 'duckback45@gmail.com',
 
-      avatar: './blog/assets/img/1599481511381.jpg',
+      avatar: './assets/img/1599481511381.jpg',
 
       sns: {
         github: {
           account: 'duckback45',
           link: 'https://github.com/duckback45',
         },
-        // facebook: {
-        //   account: 'meteorlxy.cn',
-        //   link: 'https://www.facebook.com/meteorlxy.cn',
-        // },
-        // linkedin: {
-        //   account: 'meteorlxy',
-        //   link: 'http://www.linkedin.com/in/meteorlxy',
-        // },
-        // twitter: {
-        //   account: 'meteorlxy_cn',
-        //   link: 'https://twitter.com/meteorlxy_cn',
-        // },
-        // weibo: {
-        //   account: '@焦炭君_Meteor',
-        //   link: 'https://weibo.com/u/2039655434',
-        // },
-        // zhihu: {
-        //   account: 'meteorlxy.cn',
-        //   link: 'https://www.zhihu.com/people/meteorlxy.cn',
-        // },
-        // douban: {
-        //   account: '159342708',
-        //   link: 'https://www.douban.com/people/159342708',
-        // },
         reddit: {
           account: 'duckback45',
           link: 'https://www.reddit.com/',
         },
-        // medium: {
-        //   account: 'meteorlxy.cn',
-        //   link: 'https://medium.com/@meteorlxy.cn',
-        // },
-        // instagram: {
-        //   account: 'meteorlxy.cn',
-        //   link: 'https://www.instagram.com/meteorlxy.cn',
-        // },
-        // gitlab: {
-        //   account: 'meteorlxy',
-        //   link: 'https://gitlab.com/meteorlxy',
-        // },
-        // bitbucket: {
-        //   account: 'meteorlxy',
-        //   link: 'https://bitbucket.org/meteorlxy',
-        // },
-        // docker: {
-        //   account: 'meteorlxy',
-        //   link: 'https://hub.docker.com/u/meteorlxy',
-        // },
-        // csdn: {
-        //   account: '',
-        //   link: 'https://www.csdn.net/',
-        // },
-        // juejin: {
-        //   account: 'meteorlxy',
-        //   link: 'https://juejin.im/user/5c6fa9dde51d453fcb7baf09',
-        // },
       },
     },
 
